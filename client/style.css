@@ -12,24 +12,25 @@ body {
 }
 
 h1 {
-  color: #dcdcdc;
-  font-size: 50px;
+ 
+  font-size: 20px;
   font-weight: 500;
   text-align: center;
   margin: 20px 0;
 
 }
 span{
-  color : #EFE5C1;
+  color : yellow;
 
  
 }
 p{
   color : #EFE5C1;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   margin: 20px 0;
  text-align: center;
+ margin: 20px 0;
 
   
 }
@@ -64,6 +65,7 @@ p{
 
 /* hides scrollbar */
 #chat_container::-webkit-scrollbar {
+  
   display: none;
 }
 
