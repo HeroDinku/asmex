@@ -6,11 +6,17 @@
     <link rel="alternate" hreflang="am" href="http://www.example.com/am/page.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Asme AI" />
-   
     <title>Asme AI</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <br>
+    <h1> <span class ="auto-type"></span></h1>
+    <br>
+    <h2>
+      <p>Asme AI is a computer program designed to simulate conversation with human users,
+       feel free to ask & I will do my best to assist you. please scroll down to type your question in the field provided! </p>
+    </h2>
     <div id="app">
       <div id="chat_container"></div>
 
@@ -20,7 +26,14 @@
         <button type="submit"><img src="assets/send.svg" alt="send" />
       </form>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Welcome to Asme AI"],
+        typeSpeed: 400,
+        loop: true,
+      });
+    </script>  
     <script type="module" src="script.js"></script>
   </body>
 </html>
