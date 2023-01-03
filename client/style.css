@@ -179,3 +179,29 @@ form img {
   height: 25px;
   
 }
+.logo {
+ border-radius: 50%;
+max-width: 100%;
+margin: 0 auto;
+margin-top: 20px;
+margin-bottom: 20px;
+display: flex;
+justify-self: unset;
+justify-content: center;
+align-items: center;
+max-height: 100%;
+border: 4px solid yellow;
+
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 50%;
+    height: 50%;
+  }
+}
